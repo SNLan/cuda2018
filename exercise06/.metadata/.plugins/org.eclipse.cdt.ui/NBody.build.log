@@ -1,0 +1,6 @@
+11:13:06 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:13:06 Build Finished (took 314ms)
+

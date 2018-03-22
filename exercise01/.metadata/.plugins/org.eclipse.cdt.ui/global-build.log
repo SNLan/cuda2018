@@ -1,0 +1,169 @@
+10:15:40 **** Build of configuration Debug for project dotProduct ****
+make all 
+Building file: ../testDotProduct.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testDotProduct.d" "../testDotProduct.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testDotProduct.o" "../testDotProduct.cu"
+Finished building: ../testDotProduct.cu
+ 
+Building target: dotProduct
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "dotProduct"  ./testDotProduct.o   
+Finished building target: dotProduct
+ 
+11:34:19 **** Build of configuration Debug for project upload ****
+make all 
+Building file: ../upload/testDotProductStreams.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "upload" -M -o "upload/testDotProductStreams.d" "../upload/testDotProductStreams.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "upload/testDotProductStreams.o" "../upload/testDotProductStreams.cu"
+Finished building: ../upload/testDotProductStreams.cu
+ 
+Building file: ../reverseArray/reverseArray.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "reverseArray" -M -o "reverseArray/reverseArray.d" "../reverseArray/reverseArray.cu"
+nvcc fatal   : Could not open output file reverseArray/reverseArray.d
+reverseArray/subdir.mk:21: recipe for target 'reverseArray/reverseArray.o' failed
+make: *** [reverseArray/reverseArray.o] Error 1
+12:09:48 **** Build of configuration Debug for project upload ****
+make all 
+Building file: ../upload/testDotProductStreams.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "upload" -M -o "upload/testDotProductStreams.d" "../upload/testDotProductStreams.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "upload/testDotProductStreams.o" "../upload/testDotProductStreams.cu"
+Finished building: ../upload/testDotProductStreams.cu
+ 
+Building file: ../reverseArray/reverseArray.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "reverseArray" -M -o "reverseArray/reverseArray.d" "../reverseArray/reverseArray.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "reverseArray/reverseArray.o" "../reverseArray/reverseArray.cu"
+Finished building: ../reverseArray/reverseArray.cu
+ 
+Building file: ../crossCorrelation/PPM.cpp
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "crossCorrelation" -M -o "crossCorrelation/PPM.d" "../crossCorrelation/PPM.cpp"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile  -x c++ -o  "crossCorrelation/PPM.o" "../crossCorrelation/PPM.cpp"
+Finished building: ../crossCorrelation/PPM.cpp
+ 
+Building file: ../crossCorrelation/testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "crossCorrelation" -M -o "crossCorrelation/testCorrelation.d" "../crossCorrelation/testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "crossCorrelation/testCorrelation.o" "../crossCorrelation/testCorrelation.cu"
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(186): warning: variable "gpuTex1" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(187): warning: variable "gpuTex2" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(186): warning: variable "gpuTex1" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(187): warning: variable "gpuTex2" was declared but never referenced
+
+Finished building: ../crossCorrelation/testCorrelation.cu
+ 
+Building target: upload
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "upload"  ./upload/testDotProductStreams.o  ./reverseArray/reverseArray.o  ./crossCorrelation/PPM.o ./crossCorrelation/testCorrelation.o   
+/usr/bin/ld: cannot open output file upload: Is a directory
+collect2: error: ld returned 1 exit status
+makefile:61: recipe for target 'upload' failed
+make: *** [upload] Error 1
+13:09:56 **** Build of configuration Debug for project upload ****
+make all 
+Building file: ../reverseArray/reverseArray.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "reverseArray" -M -o "reverseArray/reverseArray.d" "../reverseArray/reverseArray.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "reverseArray/reverseArray.o" "../reverseArray/reverseArray.cu"
+Finished building: ../reverseArray/reverseArray.cu
+ 
+Building file: ../crossCorrelation/testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "crossCorrelation" -M -o "crossCorrelation/testCorrelation.d" "../crossCorrelation/testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "crossCorrelation/testCorrelation.o" "../crossCorrelation/testCorrelation.cu"
+../crossCorrelation/testCorrelation.cu(56): error: no operator "[]" matches these operands
+            operand types are: texture<float4, 2, cudaReadModeElementType> [ int ]
+
+../crossCorrelation/testCorrelation.cu(57): error: no operator "[]" matches these operands
+            operand types are: texture<float4, 2, cudaReadModeElementType> [ int ]
+
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(200): error: no suitable conversion function from "texture<float4, 2, cudaReadModeElementType>" to "const void *" exists
+
+../crossCorrelation/testCorrelation.cu(201): error: no suitable conversion function from "texture<float4, 2, cudaReadModeElementType>" to "const void *" exists
+
+4 errors detected in the compilation of "/tmp/tmpxft_00004500_00000000-6_testCorrelation.cpp1.ii".
+crossCorrelation/subdir.mk:33: recipe for target 'crossCorrelation/testCorrelation.o' failed
+make: *** [crossCorrelation/testCorrelation.o] Error 1
+13:11:08 **** Build of configuration Debug for project upload ****
+make all 
+Building file: ../crossCorrelation/testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "crossCorrelation" -M -o "crossCorrelation/testCorrelation.d" "../crossCorrelation/testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "crossCorrelation/testCorrelation.o" "../crossCorrelation/testCorrelation.cu"
+../crossCorrelation/testCorrelation.cu(56): error: no operator "[]" matches these operands
+            operand types are: texture<float4, 2, cudaReadModeElementType> [ int ]
+
+../crossCorrelation/testCorrelation.cu(57): error: no operator "[]" matches these operands
+            operand types are: texture<float4, 2, cudaReadModeElementType> [ int ]
+
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(200): error: no suitable conversion function from "texture<float4, 2, cudaReadModeElementType>" to "const void *" exists
+
+../crossCorrelation/testCorrelation.cu(201): error: no suitable conversion function from "texture<float4, 2, cudaReadModeElementType>" to "const void *" exists
+
+4 errors detected in the compilation of "/tmp/tmpxft_00004565_00000000-6_testCorrelation.cpp1.ii".
+make: *** [crossCorrelation/testCorrelation.o] Error 1
+crossCorrelation/subdir.mk:33: recipe for target 'crossCorrelation/testCorrelation.o' failed
+13:23:07 **** Build of configuration Debug for project upload ****
+make all 
+Building file: ../crossCorrelation/testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "crossCorrelation" -M -o "crossCorrelation/testCorrelation.d" "../crossCorrelation/testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "crossCorrelation/testCorrelation.o" "../crossCorrelation/testCorrelation.cu"
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../crossCorrelation/testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+Finished building: ../crossCorrelation/testCorrelation.cu
+ 
+Building target: upload
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "upload"  ./upload/testDotProductStreams.o  ./reverseArray/reverseArray.o  ./crossCorrelation/PPM.o ./crossCorrelation/testCorrelation.o   
+/usr/bin/ld: cannot open output file upload: Is a directory
+collect2: error: ld returned 1 exit status
+make: *** [upload] Error 1
+makefile:61: recipe for target 'upload' failed
+13:23:42 **** Build of configuration Debug for project upload ****
+make all 
+Building target: upload
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "upload"  ./upload/testDotProductStreams.o  ./reverseArray/reverseArray.o  ./crossCorrelation/PPM.o ./crossCorrelation/testCorrelation.o   
+/usr/bin/ld: cannot open output file upload: Is a directory
+collect2: error: ld returned 1 exit status
+makefile:61: recipe for target 'upload' failed
+make: *** [upload] Error 1
+13:23:58 **** Build of configuration Debug for project upload ****
+make all 
+Building target: upload
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "upload"  ./upload/testDotProductStreams.o  ./reverseArray/reverseArray.o  ./crossCorrelation/PPM.o ./crossCorrelation/testCorrelation.o   
+/usr/bin/ld: cannot open output file upload: Is a directory
+collect2: error: ld returned 1 exit status
+make: *** [upload] Error 1
+makefile:61: recipe for target 'upload' failed

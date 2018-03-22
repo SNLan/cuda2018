@@ -1,0 +1,6 @@
+18:31:41 **** Incremental Build of configuration Default for project cudaMallocAndMemcpy ****
+make all 
+make: Nothing to be done for 'all'.
+
+18:31:41 Build Finished (took 263ms)
+

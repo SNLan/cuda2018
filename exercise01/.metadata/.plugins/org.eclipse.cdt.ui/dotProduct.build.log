@@ -1,0 +1,16 @@
+10:15:40 **** Build of configuration Debug for project dotProduct ****
+make all 
+Building file: ../testDotProduct.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testDotProduct.d" "../testDotProduct.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testDotProduct.o" "../testDotProduct.cu"
+Finished building: ../testDotProduct.cu
+ 
+Building target: dotProduct
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "dotProduct"  ./testDotProduct.o   
+Finished building target: dotProduct
+ 
+
+10:15:47 Build Finished (took 6s.934ms)
+

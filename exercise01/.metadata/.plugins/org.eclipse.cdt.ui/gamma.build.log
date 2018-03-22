@@ -1,0 +1,16 @@
+17:51:31 **** Incremental Build of configuration Debug for project gamma ****
+make all 
+Building file: ../testGamma.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testGamma.d" "../testGamma.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testGamma.o" "../testGamma.cu"
+Finished building: ../testGamma.cu
+ 
+Building target: gamma
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "gamma"  ./PPM.o ./testGamma.o   
+Finished building target: gamma
+ 
+
+17:51:33 Build Finished (took 2s.167ms)
+

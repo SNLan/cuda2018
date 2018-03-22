@@ -1,0 +1,66 @@
+11:03:50 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: NBody
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61 -link -o  "NBody"  ./gltools.o ./main.o   -lGL -lX11
+Finished building target: NBody
+ 
+11:04:04 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:04:46 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: NBody
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61 -link -o  "NBody"  ./gltools.o ./main.o   -lGL -lX11
+Finished building target: NBody
+ 
+11:05:17 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:05:46 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:06:32 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: NBody
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_61,code=sm_61 -link -o  "NBody"  ./gltools.o ./main.o   -lGL -lX11
+Finished building target: NBody
+ 
+11:07:01 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:07:21 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:08:15 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:40 **** Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:31 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.
+11:13:06 **** Incremental Build of configuration Debug for project NBody ****
+make all 
+make: Nothing to be done for 'all'.

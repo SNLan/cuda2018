@@ -1,0 +1,12 @@
+13:23:58 **** Build of configuration Debug for project upload ****
+make all 
+Building target: upload
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "upload"  ./upload/testDotProductStreams.o  ./reverseArray/reverseArray.o  ./crossCorrelation/PPM.o ./crossCorrelation/testCorrelation.o   
+/usr/bin/ld: cannot open output file upload: Is a directory
+collect2: error: ld returned 1 exit status
+make: *** [upload] Error 1
+makefile:61: recipe for target 'upload' failed
+
+13:23:59 Build Finished (took 362ms)
+

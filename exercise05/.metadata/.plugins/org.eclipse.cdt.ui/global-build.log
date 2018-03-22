@@ -1,0 +1,924 @@
+21:41:52 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+21:42:07 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+21:42:52 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:49:04 **** Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:50:13 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:50:28 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+13:54:12 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+13:54:34 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+13:54:54 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:55:14 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+13:55:39 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+13:56:01 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x200000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+13:56:17 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x200000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:57:02 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+13:57:42 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+13:57:53 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+13:58:17 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x200000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+14:03:01 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+14:03:44 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+14:04:23 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(95): warning: variable "Row" was declared but never referenced
+
+../main.cu(96): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x200000 bytes, 0xc000 max)
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 255
+14:23:28 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(118): error: identifier "blcokIdx" is undefined
+
+../main.cu(130): error: identifier "A" is undefined
+
+../main.cu(135): error: expected an expression
+
+../main.cu(136): error: identifier "B" is undefined
+
+../main.cu(148): error: expected an expression
+
+5 errors detected in the compilation of "/tmp/tmpxft_0000616c_00000000-6_main.cpp1.ii".
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+14:25:48 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(135): error: expected an expression
+
+../main.cu(148): error: expected an expression
+
+2 errors detected in the compilation of "/tmp/tmpxft_000061ef_00000000-6_main.cpp1.ii".
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+14:27:00 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+14:27:24 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+14:27:42 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(7): error: identifier "define" is undefined
+
+../main.cu(14): error: expected a ";"
+
+../main.cu(132): warning: parsing restarts here after previous syntax error
+
+../main.cu(134): error: expected a declaration
+
+../main.cu(137): error: expected a declaration
+
+../main.cu(140): error: explicit type is missing ("int" assumed)
+
+../main.cu(140): error: cannot overload functions distinguished by return type alone
+
+../main.cu(142): error: expected a declaration
+
+../main.cu(145): error: explicit type is missing ("int" assumed)
+
+../main.cu(145): error: cannot overload functions distinguished by return type alone
+
+../main.cu(147): error: expected a declaration
+
+../main.cu(149): error: expected a declaration
+
+../main.cu(176): warning: parsing restarts here after previous syntax error
+
+../main.cu(177): error: this declaration has no storage class or type specifier
+
+../main.cu(177): error: declaration is incompatible with "cudaError_t cudaMemcpy(void *, const void *, size_t, cudaMemcpyKind)"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/..//include/cuda_runtime_api.h(4478): here
+
+../main.cu(177): error: identifier "gM2" is undefined
+
+../main.cu(177): error: expected a ")"
+
+../main.cu(188): error: this declaration has no storage class or type specifier
+
+../main.cu(189): error: this declaration has no storage class or type specifier
+
+../main.cu(189): error: identifier "hMR" is undefined
+
+../main.cu(189): error: expected a ")"
+
+../main.cu(190): error: this declaration has no storage class or type specifier
+
+../main.cu(196): error: this declaration has no storage class or type specifier
+
+../main.cu(196): error: expected a ";"
+
+../main.cu(206): error: this declaration has no storage class or type specifier
+
+../main.cu(206): error: variable "startTime" has already been defined
+
+../main.cu(207): error: this declaration has no storage class or type specifier
+
+../main.cu(207): error: expected a ";"
+
+../main.cu(209): error: explicit type is missing ("int" assumed)
+
+../main.cu(209): error: cannot overload functions distinguished by return type alone
+subdir.mk:18: recipe for target 'main.o' failed
+
+../main.cu(210): error: this declaration has no storage class or type specifier
+
+../main.cu(210): error: variable "endTime" has already been defined
+
+../main.cu(211): error: this declaration has no storage class or type specifier
+
+../main.cu(211): error: variable "cudaMemcpy" has already been defined
+
+../main.cu(211): error: expected a ")"
+
+../main.cu(217): error: this declaration has no storage class or type specifier
+
+../main.cu(217): error: variable "cout" has already been defined
+
+../main.cu(217): error: expected a ";"
+
+../main.cu(218): error: this declaration has no storage class or type specifier
+
+../main.cu(218): error: variable "startTime" has already been defined
+
+../main.cu(219): error: this declaration has no storage class or type specifier
+
+../main.cu(219): error: expected a ";"
+
+../main.cu(221): error: explicit type is missing ("int" assumed)
+
+../main.cu(221): error: cannot overload functions distinguished by return type alone
+
+../main.cu(222): error: this declaration has no storage class or type specifier
+
+../main.cu(222): error: variable "endTime" has already been defined
+
+../main.cu(223): error: this declaration has no storage class or type specifier
+
+../main.cu(223): error: variable "cudaMemcpy" has already been defined
+
+../main.cu(223): error: expected a ")"
+
+../main.cu(229): error: this declaration has no storage class or type specifier
+
+../main.cu(229): error: variable "cout" has already been defined
+
+../main.cu(229): error: expected a ";"
+
+../main.cu(232): error: this declaration has no storage class or type specifier
+
+../main.cu(232): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/..//include/cuda_device_runtime_api.h(143): here
+
+../main.cu(232): error: identifier "gM1" is undefined
+
+../main.cu(233): error: this declaration has no storage class or type specifier
+
+../main.cu(233): error: variable "cudaFree" has already been defined
+
+../main.cu(234): error: this declaration has no storage class or type specifier
+
+../main.cu(234): error: variable "cudaFree" has already been defined
+
+../main.cu(234): error: identifier "gMR" is undefined
+
+../main.cu(235): error: expected a declaration
+
+../main.cu(236): error: expected a declaration
+
+../main.cu(237): error: expected a declaration
+
+../main.cu(238): error: expected a declaration
+
+62 errors detected in the compilation of "/tmp/tmpxft_00006358_00000000-6_main.cpp1.ii".
+make: *** [main.o] Error 1
+14:27:58 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+14:41:03 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+14:41:39 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+make: Nothing to be done for 'all'.
+14:41:56 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+14:43:25 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+15:11:12 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(225): error: identifier "TILE_WIDTH_1" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000069e8_00000000-6_main.cpp1.ii".
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:11:39 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(225): error: identifier "TILE_WIDTH_1" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_00006a49_00000000-6_main.cpp1.ii".
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:12:37 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+15:12:41 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+15:16:50 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:17:11 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+15:34:05 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(125): error: identifier "__share__float" is undefined
+
+../main.cu(126): error: identifier "__share__float" is undefined
+
+../main.cu(131): error: expression must have pointer-to-object type
+
+../main.cu(131): error: expression must have pointer-to-object type
+
+4 errors detected in the compilation of "/tmp/tmpxft_00006e32_00000000-6_main.cpp1.ii".
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+15:34:52 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(125): error: identifier "__share__" is undefined
+
+../main.cu(125): error: expected a ";"
+
+../main.cu(126): error: expected a ";"
+
+../main.cu(127): error: identifier "d_m" is undefined
+
+../main.cu(128): error: identifier "d_n" is undefined
+
+../main.cu(131): error: expression must have pointer-to-object type
+
+../main.cu(131): error: expression must have pointer-to-object type
+
+7 errors detected in the compilation of "/tmp/tmpxft_00006e90_00000000-6_main.cpp1.ii".
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:35:43 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(131): error: expression must have pointer-to-object type
+
+../main.cu(131): error: expression must have pointer-to-object type
+
+../main.cu(125): warning: variable "d_m" was set but never used
+
+../main.cu(126): warning: variable "d_n" was set but never used
+
+2 errors detected in the compilation of "/tmp/tmpxft_00006ef8_00000000-6_main.cpp1.ii".
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:37:51 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+15:38:35 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:39:29 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Assembler messages:
+Fatal error: can't create main.o: Disk quota exceeded
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:40:08 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:40:23 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:41:41 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:14 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:43:11 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:44:41 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+ptxas error   : Entry function '_Z18multiplyMatrixGpu2PfPKfS1_i' uses too much shared data (0x800000 bytes, 0xc000 max)
+make: *** [main.o] Error 255
+subdir.mk:18: recipe for target 'main.o' failed
+15:49:59 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+../main.cu(98): warning: variable "Row" was declared but never referenced
+
+../main.cu(99): warning: variable "Col" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:50:44 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:51:15 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+15:59:47 **** Build of configuration Debug for project NnSearch ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(38): error: identifier "__device__float" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_0000760a_00000000-6_main.cpp1.ii".
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+16:00:40 **** Build of configuration Debug for project NnSearch ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(38): error: identifier "__device_" is undefined
+
+../main.cu(38): error: attribute "host" does not apply here
+
+../main.cu(38): error: expected a ";"
+
+../main.cu(56): warning: parsing restarts here after previous syntax error
+
+../main.cu(186): error: no operator "-" matches these operands
+            operand types are: const Point - const Point
+
+../main.cu(186): error: no operator "-" matches these operands
+            operand types are: const Point - const Point
+
+5 errors detected in the compilation of "/tmp/tmpxft_0000767d_00000000-6_main.cpp1.ii".
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+16:03:47 **** Build of configuration Debug for project NnSearch ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+Finished building: ../main.cu
+ 
+Building target: NnSearch
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "NnSearch"  ./main.o   
+Finished building target: NnSearch
+ 
+17:36:22 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:33 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+make: Nothing to be done for 'all'.
+19:05:39 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:00 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+19:06:11 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 

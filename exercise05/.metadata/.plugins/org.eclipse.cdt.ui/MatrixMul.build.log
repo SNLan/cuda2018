@@ -1,0 +1,24 @@
+19:06:11 **** Incremental Build of configuration Debug for project MatrixMul ****
+make all 
+Building file: ../main.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "main.d" "../main.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "main.o" "../main.cu"
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+../main.cu(93): warning: variable "bx" was declared but never referenced
+
+../main.cu(94): warning: variable "by" was declared but never referenced
+
+Finished building: ../main.cu
+ 
+Building target: MatrixMul
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "MatrixMul"  ./main.o   
+Finished building target: MatrixMul
+ 
+
+19:06:14 Build Finished (took 2s.522ms)
+

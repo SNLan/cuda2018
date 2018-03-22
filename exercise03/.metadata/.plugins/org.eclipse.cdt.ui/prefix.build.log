@@ -1,0 +1,16 @@
+12:52:10 **** Incremental Build of configuration Debug for project prefix ****
+make all 
+Building file: ../testPrefix.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testPrefix.d" "../testPrefix.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testPrefix.o" "../testPrefix.cu"
+Finished building: ../testPrefix.cu
+ 
+Building target: prefix
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "prefix"  ./PPM.o ./testPrefix.o   
+Finished building target: prefix
+ 
+
+12:52:12 Build Finished (took 2s.717ms)
+

@@ -1,0 +1,16 @@
+13:55:30 **** Build of configuration Debug for project reduction ****
+make all 
+Building file: ../testDotProductReduction.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testDotProductReduction.d" "../testDotProductReduction.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testDotProductReduction.o" "../testDotProductReduction.cu"
+Finished building: ../testDotProductReduction.cu
+ 
+Building target: reduction
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "reduction"  ./testDotProductReduction.o   
+Finished building target: reduction
+ 
+
+13:55:33 Build Finished (took 3s.154ms)
+

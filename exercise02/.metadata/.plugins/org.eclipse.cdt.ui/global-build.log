@@ -1,0 +1,52 @@
+15:35:48 **** Build of configuration Debug for project crossCorrelation ****
+make all 
+Building file: ../PPM.cpp
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "PPM.d" "../PPM.cpp"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile  -x c++ -o  "PPM.o" "../PPM.cpp"
+Finished building: ../PPM.cpp
+ 
+Building file: ../testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testCorrelation.d" "../testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testCorrelation.o" "../testCorrelation.cu"
+../testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+../testCorrelation.cu(42): warning: variable "offsX" was declared but never referenced
+
+../testCorrelation.cu(43): warning: variable "offsY" was declared but never referenced
+
+Finished building: ../testCorrelation.cu
+ 
+Building target: crossCorrelation
+Invoking: NVCC Linker
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61 -link -o  "crossCorrelation"  ./PPM.o ./testCorrelation.o   
+Finished building target: crossCorrelation
+ 
+15:35:58 **** Incremental Build of configuration Debug for project crossCorrelation ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:59 **** Incremental Build of configuration Debug for project crossCorrelation ****
+make all 
+Building file: ../testCorrelation.cu
+Invoking: NVCC Compiler
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 -gencode arch=compute_61,code=sm_61  -odir "." -M -o "testCorrelation.d" "../testCorrelation.cu"
+/graphics/opt/opt_Ubuntu16.04/cuda/toolkit_9.0/cuda/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_61,code=compute_61 -gencode arch=compute_61,code=sm_61  -x cu -o  "testCorrelation.o" "../testCorrelation.cu"
+../testCorrelation.cu(58): error: no operator "[]" matches these operands
+subdir.mk:37: recipe for target 'testCorrelation.o' failed
+            operand types are: texture<float4, 2, cudaReadModeElementType> [ int ]
+
+../testCorrelation.cu(59): error: identifier "dst" is undefined
+
+../testCorrelation.cu(59): error: no suitable conversion function from "texture<float4, 2, cudaReadModeElementType>" to "float3 *" exists
+
+../testCorrelation.cu(59): error: a __global__ function call must be configured
+
+../testCorrelation.cu(43): warning: variable "offsX" was declared but never referenced
+
+../testCorrelation.cu(44): warning: variable "offsY" was declared but never referenced
+
+4 errors detected in the compilation of "/tmp/tmpxft_00005b67_00000000-6_testCorrelation.cpp1.ii".
+make: *** [testCorrelation.o] Error 1
